@@ -1,0 +1,26 @@
+.defaultNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  li {
+    list-style-type: none;
+    padding-right: 6em;
+  }
+}
+
+.defaultNav li:last-child {
+  padding-right: 0;
+}
+
+.aboutUsNav {
+  
+}
+
+.aboutUsNav li span:hover {
+  cursor: pointer;
+}

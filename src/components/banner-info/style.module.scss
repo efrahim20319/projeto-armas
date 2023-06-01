@@ -1,0 +1,22 @@
+.bannerInfo {
+  h1 {
+    font-size: 9em;
+    margin: 0 0;
+    font-weight: 700;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+  }
+  p {
+    width: 30em;
+    margin: 0 0;
+    text-align: justify;
+  }
+  button {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+    width: 9em;
+    padding: 0.3em;
+  }
+}

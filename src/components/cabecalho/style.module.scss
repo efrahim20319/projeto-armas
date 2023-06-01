@@ -1,0 +1,14 @@
+@import "../../styles/breakpoints.module.scss";
+
+.cabecalho {
+  padding: $default-padding;
+  background-color: gray;
+  height: calc(100vh - 9em);
+  
+
+  &__banner {
+    padding: 2em;
+    padding-top: 4em;
+  }
+}
+

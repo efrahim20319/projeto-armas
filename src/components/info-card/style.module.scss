@@ -1,0 +1,25 @@
+.infoCard {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
+
+  h2 {
+    font-size: 3em;
+  }
+
+  &__image {
+    height: 21em;
+    width: 30em;
+    background-color: rgb(27, 99, 155);
+  }
+
+  &__text {
+    width: 50%;
+    h2 {
+      font-weight: 700;
+    }
+    p {
+      line-height: 1.5em;
+    }
+  }
+}
