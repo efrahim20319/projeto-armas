@@ -1,0 +1,8 @@
+@import "../../styles/breakpoints.module";   
+.rodape {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1em $default-padding;
+    background-color: rgb(45, 45, 45);
+}
