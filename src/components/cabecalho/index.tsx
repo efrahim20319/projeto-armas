@@ -1,4 +1,4 @@
-import BannerInfo from "../banner-info";
+import BannerInfo from "./banner-info";
 import NavBar from "../nav-bar";
 import styles from "./style.module.scss";
 

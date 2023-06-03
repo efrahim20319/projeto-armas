@@ -1,0 +1,31 @@
+@import "../../styles/breakpoints.module.scss";
+
+.artigos {
+  padding: $default-padding;
+  background-color: rgb(9, 115, 23);
+
+  &__titulo {
+    font-size: $tamanho-titulo-padrao;
+    font-weight: 700;
+    margin-bottom: .5em;
+  }
+
+  &__container {
+    display: flex;
+    gap: 1em;
+    aside {
+      padding: .7em;
+      background-color: gold;
+      width: 30%;
+      height: fit-content;
+    }
+  }
+
+  &__grade {
+    display: grid;
+    width: 70%;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30%;
+  }
+}

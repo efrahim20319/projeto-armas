@@ -1,15 +1,15 @@
 import stylesNav from "../nav-bar/style.module.scss";
 import classNames from "classnames";
 import style from "./style.module.scss";
-import InfoCard from "../info-card";
+import InfoCard from "./info-card";
 import { useState } from "react";
 import IinfoCard from "../../types/info-card";
 
 export default function AboutUS() {
   const defaultInfo: IinfoCard = {
-    img: "",
-    information: "",
-    title: "quem_somos",
+    title: "quem_somos", 
+    img: 'some_img', 
+    information: "This is who we are"
   };
   const [infoCard, setInfoCard] = useState<IinfoCard>(defaultInfo);
 
@@ -24,7 +24,7 @@ export default function AboutUS() {
         <span>LOGO</span>
         <ul>
           <li>
-            <span onClick={() => setInfoCard(() => ({title: "quem_somos", img: 'some_img', information: "This is who we are"}))}>QUEM SOMOS</span>
+            <span onClick={() => setInfoCard(() => (defaultInfo))}>QUEM SOMOS</span>
           </li>
           <li>
             <span onClick={() => setInfoCard(() =>  ({title: "missao", img: 'some_img', information: "This is our mission"}))}>MISSÃO</span>
@@ -33,7 +33,7 @@ export default function AboutUS() {
             <span onClick={() => setInfoCard(() =>  ({title: "objetivos", img: 'some_img', information: "This our objectives"}))}>OBJETIVO</span>
           </li>
           <li>
-            <span onClick={() => setInfoCard(() => ({title: "quem_somos", img: 'some_img', information: "We act is this field"}))}>ATUAÇÃO</span>
+            <span onClick={() => setInfoCard(() => ({title: "atuacao", img: 'some_img', information: "We act is this field"}))}>ATUAÇÃO</span>
           </li>
         </ul>
       </nav>

@@ -1,0 +1,10 @@
+.parceiro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__img {
+        background-color: black;
+        height: 3em;
+        width:  3em;
+    }
+}

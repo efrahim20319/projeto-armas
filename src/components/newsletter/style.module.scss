@@ -1,0 +1,67 @@
+@import "../../styles/breakpoints.module";
+
+.newsletter {
+  padding: $default-padding;
+  background-color: aquamarine;
+
+  h2 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+  hr {
+    color: red;
+    background-color: rgb(85, 15, 107);
+    border: none;
+    height: 1px;
+  }
+
+  p {
+    width: 35em;
+    margin-bottom: 2em;
+    text-align: justify;
+  }
+
+  &__card {
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+
+    &__image {
+      width: 30em;
+      height: 20em;
+      background-color: rgb(202, 115, 17);
+    }
+
+    &__form {
+      // padding: 1em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      h3 {
+        font-size: 2em;
+        font-weight: 900;
+      }
+      button {
+        width: 100%;
+        height: 2em;
+        border: none;
+      }
+
+      input {
+        height: 1.5em;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  &__formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+}
+
+.newsletter button:hover {
+    cursor: pointer;
+}

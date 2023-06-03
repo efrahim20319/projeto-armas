@@ -1,4 +1,4 @@
-import IinfoCard from "../../types/info-card";
+import IinfoCard from "../../../types/info-card";
 import styles from "./style.module.scss";
 
 interface Props {
