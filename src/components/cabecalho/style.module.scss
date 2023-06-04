@@ -2,7 +2,12 @@
 
 .cabecalho {
   padding: $default-padding;
-  background-color: gray;
+  background-image: url('/assets/img/soldier-military-machine-gun-war-silhouette-black-7680x4320-6596.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
   height: calc(100vh - 9em);
   
 

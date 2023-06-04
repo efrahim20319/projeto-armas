@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "title": "quem_somos",
+      "img": "/assets/img/Cover-black.png",
+      "information": "Somos a Associação Tática de Angola - CACDPA, a primeira Associação Nacional de Armas e defesa pessoal, fundada por irmãos em armas, sem fins lucrativos e legalmente registada com o objetivo de passar conhecimento, difundir informação, preservar o legado desportivo, reconstruir a cultura das armas e promover assuntos relacionados ao tiro desportivo e a defesa pessoal em Angola."
+    },
+    {
+      "title": "missao",
+      "img": "/assets/img/Cover-white.png",
+      "information": "Dar maior relevo ao trabalho mental, visto este ser o responsável por toda a parte operacional do corpo, transmitindo a nossa paixão e dando aos nossos associados ferramentas que lhes permitam evitar situações de perigo."
+    },
+    {
+      "title": "objetivos",
+      "img": "/public/assets/img/dark-gas-masks-minimalism-wallpaper-preview.jpg",
+      "information": "Orientar e direcionar pessoas, que buscam armas de fogo, para os caminhos corretos, evitando assim desvios de finalidades. Promovendo o desporto, reconstruindo e fomentando a cultura das armas, passamos conhecimento a cidadãos cumpridores da lei de forma acessível no que couber e beneficiar o CACDPA"
+    },
+    {
+      "title": "atuacao",
+      "img": "/assets/img/war-and-army-handgun-wallpaper-preview.jpg",
+      "information": "Atuamos na promoção do esporte do tiro e na defesa pessoal, focando na realização de pesquisas, palestras, debates para a difusão das normas aos agentes da área de Segurança Pública, agentes de proteção e segurança privada  e as pessoas individuais a fim de evitar, principalmente, o uso ilegal de armas."
+    }
+  ]
+}

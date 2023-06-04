@@ -3,11 +3,9 @@ import styles from "./style.module.scss";
 export default function BannerInfo() {
   return (
     <div className={styles.bannerInfo}>
-      <h1>Guns</h1>
+      <h1>CACDPA</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-        doloremque beatae, dolore fuga quasi asperiores porro possimus
-        recusandae voluptates.
+        No mundo da coleção, as estrelas podem ser usadas para indicar a raridade, a importância ou o valor de um objeto. 
       </p>
       <button>
         <span>Lets Go</span>

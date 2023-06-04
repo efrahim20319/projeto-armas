@@ -1,6 +1,11 @@
+@import "../../../styles/colors.module";
+
 .bannerInfo {
+  translate: 1em 3em;
+  font-family: 'Roboto', sans-serif;
   h1 {
-    font-size: 9em;
+    font-family: 'Black Ops One', cursive;
+    font-size: 8em;
     margin: 0 0;
     font-weight: 700;
     margin-block-start: 0;
@@ -8,15 +13,25 @@
   }
   p {
     width: 30em;
-    margin: 0 0;
+    margin: 0 0 .2em 0;
     text-align: justify;
+    line-height: normal;
   }
   button {
     display: flex;
+    font-weight: 700;
     justify-content: space-between;
     background-color: white;
     border: none;
     width: 9em;
     padding: 0.3em;
+    transition: background-color .7s ease-in-out;
+    transition: color .7s ease-in-out;
   }
+}
+
+.bannerInfo button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: $vermelho-meio-claro;
 }

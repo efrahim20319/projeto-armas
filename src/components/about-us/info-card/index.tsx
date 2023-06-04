@@ -16,8 +16,8 @@ export default function InfoCard({ infoCard, setInfoCard }: Props) {
   return (
     <div className={styles.infoCard}>
       <div>
-        <div className={styles.infoCard__image}></div>
-        {/* <img src="" alt="" /> */}
+        {/* <div></div> */}
+        <img className={styles.infoCard__image} src={infoCard.img} alt="" />
       </div>
       <div className={styles.infoCard__text}>
         <h2>{title[infoCard.title]}</h2>

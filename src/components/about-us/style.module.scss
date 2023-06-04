@@ -1,6 +1,12 @@
 @import "../../styles/breakpoints.module.scss";
+@import "../../styles/colors.module";
 
 .aboutUs {
   padding: $default-padding;
-  background-color: rgb(157, 157, 66);
+  background-color: $cinza-escuro;
+  background-image: url("/assets/img/Cover 2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }

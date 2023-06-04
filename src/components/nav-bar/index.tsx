@@ -2,13 +2,13 @@ import styles from './style.module.scss'
 export default function NavBar() {
   return (
     <nav className={styles.defaultNav}>
-      <span>LOGO</span>
+      <img className={styles.defaultNav__img} src="/public/assets/img/logo-main.png" alt="" />
       <ul>
-        <li>ITEM</li>
-        <li>ITEM</li>
-        <li>ITEM</li>
-        <li>ITEM</li>
-        <li>ITEM</li>
+        <li><span>ITEM</span></li>
+        <li><span>ITEM</span></li>
+        <li><span>ITEM</span></li>
+        <li><span>ITEM</span></li>
+        <li><span>ITEM</span></li>
       </ul>
     </nav>
   );

@@ -1,7 +1,15 @@
+@import "../../styles/_colors.module.scss";
+
 .defaultNav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Passion One", cursive;
+
+  img {
+    height: 5em;
+    // width:  5em;
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -13,14 +21,36 @@
   }
 }
 
+.defaultNav li span {
+  padding: 0.1em 0.8em;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: border 0.3s;
+  transition: background-color 0.5s;
+}
+li span:hover {
+  cursor: pointer;
+}
+
+.defaultNav li span:hover {
+  background-color: $vermelho-meio-claro;
+  border: 1px solid $vermelho-meio-claro;
+}
+
 .defaultNav li:last-child {
   padding-right: 0;
 }
 
 .aboutUsNav {
-  
+  font-family: Arial, Helvetica, sans-serif;
+  transition: none;
+}
+
+.aboutUsNav li span {
+  border: none;
 }
 
 .aboutUsNav li span:hover {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
 }
