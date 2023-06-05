@@ -1,21 +1,33 @@
 @import "../../styles/breakpoints.module.scss";
+@import "../../styles/fonts.module";
+@import "../../styles/colors.module";
 
 .artigos {
   padding: $default-padding;
-  background-color: rgb(9, 115, 23);
+
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+  // background: #000000;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  // background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 
   &__titulo {
     font-size: $tamanho-titulo-padrao;
+    font-family: $titulos;
+    color: white;
     font-weight: 700;
     margin-bottom: .5em;
   }
 
   &__container {
     display: flex;
-    gap: 1em;
+    gap: 1.3em;
     aside {
       padding: .7em;
-      background-color: gold;
+      background-color: $cinza-escuro;
       width: 30%;
       height: fit-content;
     }
@@ -24,8 +36,8 @@
   &__grade {
     display: grid;
     width: 70%;
-    gap: 1em;
+    gap: 1.3em;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30%;
+    grid-template-rows: minmax(30%, 45%);
   }
 }

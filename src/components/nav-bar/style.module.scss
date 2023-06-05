@@ -46,11 +46,14 @@ li span:hover {
 }
 
 .aboutUsNav li span {
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: border 0.3s;
+  transition: background-color 0.5s;
+  // font-family: "Passion One", cursive;
 }
 
 .aboutUsNav li span:hover {
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: $vermelho-meio-claro;
+  border: 1px solid $vermelho-meio-claro;
   cursor: pointer;
 }

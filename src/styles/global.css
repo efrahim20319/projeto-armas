@@ -1,6 +1,9 @@
 @import url("./reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Foldit:wght@500&family=Konkhmer+Sleokchher&family=Passion+One&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   scroll-behavior: smooth;
   /* overflow-y: hidden; */

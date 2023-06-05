@@ -1,8 +1,12 @@
+@import "../../../styles/colors.module";
+@import "../../../styles/fonts.module";
+
 .conteudoLateral {
     padding: .5em;
-    background-color: rgb(19, 144, 207);
+    // background-color: $vermelho-meio-escuro;
     margin-bottom: 1em;
     h2 {
+        font-family: $paragrafos;
         margin-bottom: 1em;
         text-align: center;
         font-size: 1.4em;

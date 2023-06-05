@@ -20,20 +20,20 @@ export default function Artigos() {
           <ConteudoLateral>
             <h2>Sigam-nos</h2>
             <div className="fallow-us">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <a href=""><img src="/public/assets/img/social media/1164348_instagram_logo_media_network_new_icon.png" alt="" /></a>
+              <a href=""><img src="/public/assets/img/social media/4017335_logo_media_network_social_square_icon.png" alt="" /></a>
+              <a href=""><img src="/public/assets/img/social media/771362_facebook_logo_media_network_social_icon.png" alt="" /></a>
+              <a href=""><img src="/public/assets/img/social media/771369_linkedin_logo_media_network_social_icon.png" alt="" /></a>
             </div>
           </ConteudoLateral>
           <ConteudoLateral>
             <h2>Parceiros</h2>
             <div className="partners">
-              <Parceiro/>
-              <Parceiro/>
-              <Parceiro/>
-              <Parceiro/>
-              <Parceiro/>
+              <Parceiro />
+              <Parceiro />
+              <Parceiro />
+              <Parceiro />
+              <Parceiro />
             </div>
           </ConteudoLateral>
         </aside>

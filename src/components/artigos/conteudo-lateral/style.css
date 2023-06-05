@@ -3,11 +3,12 @@
   justify-content: space-evenly;
   /* background-color: blueviolet; */
 }
-.fallow-us div {
-  background-color: aquamarine;
+.fallow-us img {
   height: 3em;
   width: 3em;
 }
+
+
 .partners {
   display: flex;
   flex-direction: column;
