@@ -3,8 +3,8 @@ import style from "./style.module.scss"
 function Rodape() {
   return (
     <footer className={style.rodape}>
-      <span>efrahimtks@gmail.com</span>
-      <span>+244949856976</span>
+      <span>email@cacdpa.com</span>
+      <span>+244999222333</span>
     </footer>
   );
 }

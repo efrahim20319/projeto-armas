@@ -14,7 +14,7 @@
     font-family: $titulos;
   }
   hr {
-    background-color: $vermelho-meio-claro;
+    background-color: rgb(95, 95, 95);
     border: none;
     height: 1px;
   }
@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-around;
     background-color: $cinza-claro;
-    border-radius: 10px;
 
     &__image {
       width: 30em;

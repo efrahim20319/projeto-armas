@@ -7,10 +7,12 @@ export default function BannerInfo() {
       <p>
         No mundo da coleção, as estrelas podem ser usadas para indicar a raridade, a importância ou o valor de um objeto. 
       </p>
+      <a href="#about-us">
       <button>
         <span>Lets Go</span>
         <span>►</span>
       </button>
+      </a>
     </div>
   );
 }

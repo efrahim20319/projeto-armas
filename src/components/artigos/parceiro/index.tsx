@@ -5,7 +5,7 @@ function Parceiro() {
     <div className={style.parceiro}>
       <div className={style.parceiro__img}></div>
       {/* <img src="" alt="" /> */}
-      <h4>Hello world</h4>
+      <h4>Unitel</h4>
     </div>
   );
 }

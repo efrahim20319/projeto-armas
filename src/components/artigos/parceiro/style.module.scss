@@ -1,10 +1,17 @@
+@import "../../../styles/fonts.module";
+
 .parceiro {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    font-family: $paragrafos;
+    
     &__img {
         background-color: black;
         height: 3em;
         width:  3em;
+    }
+    h4 {
+        color: white;
     }
 }

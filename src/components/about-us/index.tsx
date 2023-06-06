@@ -25,7 +25,7 @@ export default function AboutUS() {
   }
 
   return (
-    <section className={style.aboutUs}>
+    <section id="about-us" className={style.aboutUs}>
       <nav
         className={classNames({
           [stylesNav.defaultNav]: true,

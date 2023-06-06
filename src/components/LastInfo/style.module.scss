@@ -1,16 +1,26 @@
 @import "../../styles/breakpoints.module.scss";
+@import "../../styles/colors.module";
+@import "../../styles/fonts.module";
 
 .lastInfo {
   padding: $default-padding;
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(22, 101, 157);
+  color: white;
+  // justify-content: space-around;
+  background-color: $preto-normal;
+  background-repeat: no-repeat;
+  background-image: url('/public/assets/img/vvvortex.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  gap: .1em;
   div {
-    background-color: rgb(82, 200, 200);
-    padding: 2em;
+    // background-color: rgb(82, 200, 200);
+    padding: 1.3em;
   }
   h3 {
     text-align: center;
+    font-family: $titulos;
     font-size: 2em;
     margin-bottom: .4em;
   }
@@ -19,10 +29,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    div {
-      width: 10em;
-      height: 10em;
-      background-color: brown;
+    img {
+      // width: 10em;
+      height: 13em;
+      // background-color: brown;
       margin-bottom: 1em;
     }
   }
@@ -31,6 +41,8 @@
     width: 33%;
     p {
       text-align: justify;
+      font-family: $paragrafos;
+      font-weight: 700;
     }
   }
 
