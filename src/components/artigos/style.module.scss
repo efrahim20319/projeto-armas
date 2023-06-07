@@ -10,7 +10,6 @@
   // background: #000000;  /* fallback for old browsers */
   // background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   // background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 
   // background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 
@@ -19,14 +18,14 @@
     font-family: $titulos;
     color: white;
     font-weight: 700;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 
   &__container {
     display: flex;
     gap: 1.3em;
     aside {
-      padding: .7em;
+      padding: 0.7em;
       background-color: $cinza-escuro;
       width: 30%;
       height: fit-content;
@@ -42,39 +41,39 @@
   }
 }
 
-
 @media only screen and (max-width: 600px) {
   .artigos {
-
+    padding: 1em;
     &__grade {
       display: flex;
       flex-direction: column;
+      width: 100%;
     }
 
     &__container {
       flex-direction: column;
+      aside {
+        padding: 0.7em;
+        background-color: $cinza-escuro;
+        width: 100%;
+        height: fit-content;
+      }
     }
 
     &__titulo {
       font-size: 2em;
     }
-
   }
-  
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
 }

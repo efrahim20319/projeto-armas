@@ -4,7 +4,7 @@ function Artigo() {
   return (
     <div className={style.artigo}>
       {/* <div></div> */}
-      <img className={style.artigo__img} src="/public/assets/img/rifle_weapon_guns_210298_3840x2400.jpg" alt="" />
+      <img className={style.artigo__img} src="/assets/img/rifle_weapon_guns_210298_3840x2400.jpg" alt="" />
       <div className={style.artigo__info}>
         <div>
           <span className={style.artigo__info__categoria}>Cultura</span>
