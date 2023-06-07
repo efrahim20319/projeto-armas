@@ -11,17 +11,9 @@ export default function AboutUS() {
   const [infoCard, setInfoCard] = useState<IinfoCard>(quem_somos);
   const [cards_ativos, setCards_ativos] = useState([true, false, false, false]);
   function atualizaCardAtivo(index: number) {
-    setCards_ativos((prev) => {
-      const novos_cards = [];
-      for (const key in prev) {
-        if (Number(key) === index) {
-          novos_cards.push(true);
-          continue;
-        }
-        novos_cards.push(false);
-      }
-      return novos_cards;
-    });
+    setCards_ativos((prev) =>
+      prev.map((_v, i) => (index === i ? true : false))
+    );
   }
 
   return (
@@ -32,7 +24,6 @@ export default function AboutUS() {
           [stylesNav.aboutUsNav]: true,
         })}
       >
-        <span>LOGO</span>
         <ul>
           <li>
             <span
