@@ -15,7 +15,7 @@ export default function Cabecalho() {
         className="cabecalho__nav"
       >
         <Navbar.Brand href="/">
-          <img className="cabecalho__logo" src="/public/assets/img/logo-main.png" alt="" />
+          <img className="cabecalho__logo" src="/assets/img/logo-main.png" alt="" />
           {/* <Logo
             alt=""
             width="30"

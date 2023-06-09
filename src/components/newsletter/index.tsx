@@ -14,7 +14,7 @@ export default function NewsLetter() {
           {/* <div ></div> */}
           <img
             className={style.newsletter__card__image}
-            src="/public/assets/img/padronagem armas.jpg"
+            src="/assets/img/padronagem armas.jpg"
             alt=""
           />
         </div>

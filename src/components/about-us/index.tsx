@@ -4,17 +4,21 @@ import style from "./style.module.scss";
 import InfoCard from "./info-card";
 import { useState } from "react";
 import IinfoCard from "../../types/info-card";
-import { cards } from "../../data/about-us.json";
+import cardsData from "../../data/cardsData";
+
+
+
+export function atualizaCardAtivo(
+  index: number,
+  setCards_ativos: React.Dispatch<React.SetStateAction<boolean[]>>
+) {
+  setCards_ativos((prev) => prev.map((_v, i) => (index === i ? true : false)));
+}
 
 export default function AboutUS() {
-  const [quem_somos, missao, objetivos, atuacao] = cards as IinfoCard[];
+  const [quem_somos, missao, objetivos, atuacao] = cardsData;
   const [infoCard, setInfoCard] = useState<IinfoCard>(quem_somos);
   const [cards_ativos, setCards_ativos] = useState([true, false, false, false]);
-  function atualizaCardAtivo(index: number) {
-    setCards_ativos((prev) =>
-      prev.map((_v, i) => (index === i ? true : false))
-    );
-  }
 
   return (
     <section id="about-us" className={style.aboutUs}>
@@ -30,7 +34,7 @@ export default function AboutUS() {
               className={classNames({ [style.ative]: cards_ativos[0] })}
               onClick={() => {
                 setInfoCard(quem_somos);
-                atualizaCardAtivo(0);
+                atualizaCardAtivo(0, setCards_ativos);
               }}
             >
               QUEM SOMOS
@@ -41,7 +45,7 @@ export default function AboutUS() {
               className={classNames({ [style.ative]: cards_ativos[1] })}
               onClick={() => {
                 setInfoCard(missao);
-                atualizaCardAtivo(1);
+                atualizaCardAtivo(1, setCards_ativos);
               }}
             >
               MISSÃO
@@ -52,7 +56,7 @@ export default function AboutUS() {
               className={classNames({ [style.ative]: cards_ativos[2] })}
               onClick={() => {
                 setInfoCard(objetivos);
-                atualizaCardAtivo(2);
+                atualizaCardAtivo(2, setCards_ativos);
               }}
             >
               OBJETIVO
@@ -63,7 +67,7 @@ export default function AboutUS() {
               className={classNames({ [style.ative]: cards_ativos[3] })}
               onClick={() => {
                 setInfoCard(atuacao);
-                atualizaCardAtivo(3);
+                atualizaCardAtivo(3, setCards_ativos);
               }}
             >
               ATUAÇÃO
@@ -71,7 +75,12 @@ export default function AboutUS() {
           </li>
         </ul>
       </nav>
-      <InfoCard infoCard={infoCard} setInfoCard={setInfoCard} />
+      <InfoCard
+        cards_ativos={cards_ativos}
+        setCards_ativos={setCards_ativos}
+        infoCard={infoCard}
+        setInfoCard={setInfoCard}
+      />
     </section>
   );
 }

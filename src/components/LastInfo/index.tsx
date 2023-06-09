@@ -5,7 +5,7 @@ function LastInfo() {
     <section className={styles.lastInfo}>
       <div className={styles.lastInfo__img}>
         {/* <div ></div> */}
-        <img src="/public/assets/img/logo-for-black-background.png" alt="" />
+        <img src="/assets/img/logo-for-black-background.png" alt="" />
         <h3>CACDPA</h3>
       </div>
       <div className={styles.lastInfo__aboutUs}>
