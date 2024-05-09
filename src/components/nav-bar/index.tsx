@@ -4,11 +4,10 @@ export default function NavBar() {
     <nav className={styles.defaultNav}>
       <img className={styles.defaultNav__img} src="/assets/img/logo-main.png" alt="" />
       <ul>
-        <li><span>ITEM</span></li>
-        <li><span>ITEM</span></li>
-        <li><span>ITEM</span></li>
-        <li><span>ITEM</span></li>
-        <li><span>ITEM</span></li>
+        <li><span>Quem somos</span></li>
+        <li><span>Newsletter</span></li>
+        <li><span>Artigos</span></li>
+        <li><span>Contactos</span></li>
       </ul>
     </nav>
   );
